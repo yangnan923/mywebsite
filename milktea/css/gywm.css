@@ -1,0 +1,257 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+header{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+#header_nav{
+	width: 100%;
+	margin: auto;
+	padding: 30px 0;
+	border: 0px;
+	transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition:all 1s;
+	background: rgba(106, 204, 181, 0.7)
+}
+#header_one{
+	
+} 
+#header_one #logo{
+	margin-right: 0;
+}
+#header_two{
+	
+}
+#header_two ul{
+	padding-left: 300px;
+}
+
+#logo img{
+	max-height: 50px;
+}
+#text li a{
+	color: #FFFFFF;
+}
+#op{
+	background-color: #7fd4c0;
+}
+@media (min-width: 600px) {
+	.jia{max-width: 1310px;width: 100%;margin: auto;}
+}
+#op li:hover a{
+	color: #7fd4c0;
+}
+@media (max-width:768px) {
+	.a{
+		display: block;
+	}
+}
+ 
+
+
+
+
+
+
+.box-1{
+	width: 100%;
+}
+.p-1{
+	text-align: center;
+	font-size: 20px;
+	color: #666666;
+}
+.box-2{
+	text-align: center;	
+	padding: 20px;
+}
+.box-2>li{
+	list-style:none;
+	display: inline-block;
+	padding: 15px;	
+	line-height: 10px;
+	margin: 5px;
+	font-size: 18px;
+	font-family: "宋体";
+	background-color: #f8f8f8;
+}
+.box-2>li>a{
+	 text-decoration: none;
+	 color: rgb(102,102,102);
+}
+.box-2>li:hover{
+	background-color: rgb(106,204,181);
+}
+.box-2>li:hover a{
+	color: white;
+}
+@media only screen and (min-width: 100px) and (max-width: 400px) {
+	.box-2>li{
+		width: 100%;
+	}
+}
+
+.boss{
+	margin-top: 10px;
+}
+.max-1{
+	border-bottom: 1px solid;
+    border-color: #6accb5;
+    padding: 20px 0px;
+}
+.p-2{
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+.p-3{
+	text-align: justify;
+	margin: auto; 
+	width: 94%;
+	font-size: 16px;
+	color: rgb(102,102,102);
+	margin-top: 15px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+.q-p-3{
+	text-align: center;
+	margin: auto; 
+	width: 94%;
+	font-size: 16px;
+	color: rgb(102,102,102);
+	margin-top: 15px;
+	line-height: 30px;
+}
+.p-4{
+	text-align: center;
+	margin-top: 40px;
+}
+.p-4>img{
+	padding: 20px;
+}
+.max-2{
+	height: 60px;
+	border-bottom: 1px solid rgb(102,102,102);
+	border-top: 1px solid rgb(102,102,102);
+	text-align: center;
+	line-height: 60px;
+	margin-top: 40px;
+}
+.max-2>span>a{
+	color: rgb(102,102,102);
+	text-decoration: none;
+}
+.max-2>span>a:hover{
+	color: rgb(106,204,181);
+}
+
+footer{
+	width: 100%;
+	padding: 40px 0 10px 0;
+	background: url(../img/home23.png) no-repeat;
+	background-size: 100% 100%;
+}
+footer .footer_one{
+	max-width: 100%;
+	width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+}
+footer .footer_one .one{
+	color: #FFFFFF;
+}
+footer .footer_one .one .h4{
+	margin: 0 0 17px;
+	font-size: 18px;
+}
+footer .footer_one .one .h4 p{
+	width: 45px;
+	height: 2px;
+	background-color: #FFFFFF;
+	margin: 10px 0 10px 0px;
+}
+.tubiao{
+	padding-top: 4px;
+}
+footer .footer_one .one .ul1 li{
+	margin-bottom: 12px;
+}
+footer .footer_one .one .ul1 li i{
+	font-size: 8px;
+}
+footer .footer_one .one .ul1 li a{
+	text-decoration: none;
+	color: #e8fffb;
+}
+footer .footer_one .one .ul1 li a:hover{
+	color: #FFFFFF;
+}
+footer .footer_one .one .ul2 li{
+	width: 25%;
+	float: left;
+	padding: 3px;
+	cursor: pointer;
+}
+footer .footer_one .one .ul2 li img{
+	max-width: 100%;
+}
+@media (max-width:1200px) {
+	.one{
+		margin-top: 40px;
+	}
+}
+.du{
+	text-align: center;
+	background-color: #6accb5;
+	padding-top: 20px;
+	padding-bottom:48px ;
+}
+.du p{
+	color: #d2fcf1;
+}
+.du .ui{
+	color: #d2fcf1;
+}
+.du .ui b{
+	color: #FFFFFF;
+}
+.du .ui a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.butn{
+	background-color: #7fd4c0;
+    color: #ffffff;
+	position: fixed;
+    right: 10px;
+    bottom: 0px;
+    z-index: 1601;
+	border: 0px;
+	outline: none;
+	transition: all 1s;
+	transform: matrix(1,0,0,-0.001,0,0);
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition:all 1s;
+}
+.butn i{
+	padding: 12px;
+}
+.butn:hover{
+	background-color: #5ec4ac;
+}
+
+
+.active{
+	background-color: rgb(106,204,181);
+}
